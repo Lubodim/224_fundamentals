@@ -1,11 +1,11 @@
 stack = [3, 4, 5]
 stack.append(8)
 stack.append(1)
-print(stack) # [3, 4, 5, 8, 1]
+print(stack)
 pop_element = stack.pop()
-print(pop_element)  # 1
-print(stack) # [3, 4, 5, 8]
-stack.pop()  # 8
-stack.pop()  # 5
-print(stack) # [3, 4]
+print(pop_element)
+print(stack)
+pop_element2= stack.pop()
+pop_element3 = stack.pop()
+print(stack)
 
