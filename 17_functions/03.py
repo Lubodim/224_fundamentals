@@ -11,3 +11,4 @@ print(add_number(a, b))
 
 stamat = add_number(a, b) + 7 / 10
 print(stamat)
+
